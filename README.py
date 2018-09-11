@@ -1,13 +1,12 @@
 #random list duplication
-import random
-a = (range(1,random.randint(1,100)))
-b = (range(1,random.randint(1,1000)))
+a = [1,1,2,3,5,8,13,21,34,55,89]
+b = range(1,14)
 
 c = []
 
-for i in b:
-    if i in a:
+for i in a:
+    if i in b:
         if i not in c:
             c.append(i)
 
-print(c)
+print (c)
