@@ -1,3 +1,4 @@
+#random list duplication
 import random
 a = (range(1,random.randint(1,100)))
 b = (range(1,random.randint(1,1000)))
