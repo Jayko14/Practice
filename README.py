@@ -1,6 +1,6 @@
-# Practice
-a = range(1,e.randint(1,100))
-b = range(1,f.randint(1,100))
+import random
+a = (range(1,random.randint(1,100)))
+b = (range(1,random.randint(1,1000)))
 
 c = []
 
