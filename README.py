@@ -4,6 +4,8 @@ while True:
     P1 = input('Please choose from rock, paper or scissors ')
     P2 = random.choice(x)
     print('Computer chose ' + P2)
+    if P1 != ('rock' or 'paper'or 'scissors'):
+        print ("Invalid entry")
     if P1 == P2:
         print ("It's a tie")
     elif P1 == 'rock' and P2 == 'scissors':
@@ -15,4 +17,5 @@ while True:
     else:
         print ("You lose!")
         break        
+
 
