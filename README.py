@@ -1,12 +1,12 @@
-# Practice
-a = range(1,e.randint(1,100))
-b = range(1,f.randint(1,100))
+num = int(input('Please choose a number greater than 2 '))
 
-c = []
+x = [i for i in range(2,num) if num % i == 0]
 
-for i in b:
-    if i in a:
-        if i not in c:
-            c.append(i)
+if num > 1:
+    if len(x) == 0:
+        print('prime')
+    else:
+        print('not prime')
+else:
+    print('not prime')
 
-print(c)
